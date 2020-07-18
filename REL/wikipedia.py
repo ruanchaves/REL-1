@@ -106,7 +106,7 @@ class Wikipedia:
         """
         wiki_disambiguation_index = {}
         with open(
-            "{}/basic_data//wiki_disambiguation_pages.txt".format(self.base_url),
+            "{}/basic_data/wiki_disambiguation_pages.txt".format(self.base_url),
             "r",
             encoding="utf-8",
         ) as f:
